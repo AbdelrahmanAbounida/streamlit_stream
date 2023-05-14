@@ -31,6 +31,8 @@ class SensorReader(Resource):
         currentX = x_value
         currentY = y_value
 
+        return {"success": f"currentX: {currentX}, CurrentY: {currentY}"}
+
         
 class Test(Resource):
     def get(self):

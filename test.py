@@ -1,11 +1,10 @@
 import requests
 
-url = "https://zoom-pinecone-backend.onrender.com/qa"
+url = "https://sensor-stream.onrender.com/reading"
 
 payload = {
-    "x_value": "hi ",
-    "y_value": "12345",
-    "transcript_ids": "1T1g8KNFkxzxhDgsxUjlYl2ow2YQoUc82" # "1T73I4uA3BpNPWuCppF664YncSVBJhVJs"
+    "x_value": 1,
+    "y_value": 2.3,
 }
 
 headers = {"content-type": "application/json"}
